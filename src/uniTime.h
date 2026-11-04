@@ -1,4 +1,5 @@
 #include <time.h>
+#include <stdio.h>
 void uniGetTimespec(struct timespec *dest){
 #ifdef __linux__
 #if _POSIX_C_SOURCE >= 199309L
